@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -489,8 +488,10 @@
     box-shadow: 0 0 0 4px rgba(184,154,90,.2);
   }
   .tl-content { padding-left: 20px; font-size: clamp(13px,2.2vw,14.5px); color: var(--charcoal); }
-  .tl-content .title { font-weight: 500; margin-bottom: 2px; }
+  .tl-content .title { font-weight: 500; margin-bottom: 8px; }
   .tl-content .note  { font-size: 11.5px; color: var(--mid); }
+  .tl-sub { font-size: clamp(11px,2vw,12.5px); color: var(--mid); margin: 5px 0; display: flex; align-items: center; gap: 8px; }
+  .tl-sub-pointer { color: var(--gold); font-weight: 700; font-size: 12px; flex-shrink: 0; }
 
   /* ════════════════════════════
      DIRECTIONS
@@ -1118,10 +1119,10 @@
     <div class="tl-row" data-reveal data-delay="2">
       <div class="tl-time">10:30 – 11:00</div>
       <div class="tl-dot"></div>
-      <div class="tl-content"><div class="title">인사말 · 세미나 (사파이어 홀)</div>
-      <div class="tl-sub">남재욱 부사장 - 인사말</div>
-      <div class="tl-sub">박정권 전무 - eXperDB 세미나</div>
-      <div class="tl-sub">김중식 전무 - iPaaS를 활용한 AI 세미나</div></div>
+      <div class="tl-content"><div class="title">인사말 · 세미나 (사파이어 홀) </div>
+      <div class="tl-sub"><span class="tl-sub-pointer">▸</span>남재욱 부사장 - 인사말</div>
+      <div class="tl-sub"><span class="tl-sub-pointer">▸</span>박정권 전무 - eXperDB 세미나</div>
+      <div class="tl-sub"><span class="tl-sub-pointer">▸</span>김중식 전무 - iPaaS를 활용한 AI 세미나</div></div>
     </div>
     <div class="tl-row" data-reveal data-delay="3">
       <div class="tl-time">11:00 – 12:00</div>
@@ -1141,7 +1142,7 @@
     <div class="tl-row" data-reveal data-delay="6">
       <div class="tl-time">19:30 ~</div>
       <div class="tl-dot"></div>
-      <div class="tl-content"><div class="title">해산</div></div>
+      <div class="tl-content"><div class="title">세미나 종료</div></div>
     </div>
   </div>
   <p style="max-width:800px; margin:16px auto 0; text-align:right; font-size:11px; color:var(--mid);">※ 상기 내용은 현장 상황에 따라 변경될 수 있습니다.</p>
